@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brochure: Montréal, Canada</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .image-small {
+            max-width: 350px; /* Adjust as needed */
+            max-height: 350px; /* Adjust as needed */
+            transition: transform 0.3s, box-shadow 0.3s;
+            border-radius: 0.5rem; /* Add this line to make the corners rounded */
+        }
+        .image-small:hover {
+            transform: rotate(5deg) scale(1.05);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+
+        
+        }
+
+        body {
+            background-color: #727272; 
+          }
+          
+          .container {
+            background-color: #7d7d7d; /* Medium grey background */
+            border: 1px solid #bbbbbb; /* Grey border */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft grey shadow */
+          }
+
+        .text-gray-700 {
+            transition: transform 0.3s; /* Add this line for smooth animation */
+          }
+          
+          .text-gray-700:hover {
+            animation: pop-up 0.5s forwards; /* Add this line to trigger the animation */
+          }
+          
+          @keyframes pop-up {
+            0% {
+              transform: translateY(0);
+            }
+            100% {
+              transform: translateY(-5px); /* Adjust the value to your liking */
+            }
+          }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto p-4 bg-white shadow-lg rounded-lg mt-12">
+        <h1 class="text-center text-3xl font-bold text-gray-800 mb-8">Brochure: Montréal, Canada</h1>
+        
+        <div class="section mb-8 flex items-center">
+            <img src=" still_videoCite-memoire.jpg" alt="Le mur de la ville" class="image-small mr-4">
+            <div>
+                <h2 class="text-xl font-semibold text-gray-800 mb-4">Le mur de la ville</h2>
+                <p class="text-gray-700 mb-2">1. Le mur de la ville de Montréal est un vestige historique important.</p>
+                <p class="text-gray-700 mb-2">2. Il protégeait autrefois la ville contre les invasions.</p>
+                <p class="text-gray-700">3. Aujourd'hui, il est un symbole du riche passé de Montréal.</p>
+            </div>
+        </div>
+        
+        <div class="section mb-8 flex items-center">
+            <img src=" 2021-02-01.jpg" alt="Château Ramezay" class="image-small mr-4">
+            <div>
+                <h2 class="text-xl font-semibold text-gray-800 mb-4">Un château</h2>
+                <p class="text-gray-700 mb-2">1. Le château Ramezay est un bâtiment historique de Montréal.</p>
+                <p class="text-gray-700 mb-2">2. Il a été construit en 1705 et servait de résidence pour les gouverneurs français.</p>
+                <p class="text-gray-700">3. Maintenant, c'est un musée qui raconte l'histoire de Montréal.</p>
+            </div>
+        </div>
+        
+        <div class="section mb-8 flex items-center">
+            <img src="2023-06-23.jpg" alt="La tour de l'Horloge" class="image-small mr-4">
+            <div>
+                <h2 class="text-xl font-semibold text-gray-800 mb-4">La tour</h2>
+                <p class="text-gray-700 mb-2">1. La tour de l'Horloge est un monument emblématique de Montréal.</p>
+                <p class="text-gray-700 mb-2">2. Elle a été construite en mémoire des marins disparus pendant la Première Guerre mondiale.</p>
+                <p class="text-gray-700">3. La tour offre une vue panoramique sur le Vieux-Port de Montréal.</p>
+            </div>
+        </div>
+        
+        <div class="section mb-8 flex items-center">
+            <img src="20220720_101442p.jpg" alt="Musée des beaux-arts de Montréal" class="image-small mr-4">
+            <div>
+                <h2 class="text-xl font-semibold text-gray-800 mb-4">Le musée</h2>
+                <p class="text-gray-700 mb-2">1. Le musée des beaux-arts de Montréal est l'un des plus grands musées du Canada.</p>
+                <p class="text-gray-700 mb-2">2. Il présente des collections d'art du monde entier.</p>
+                <p class="text-gray-700">3. Le musée joue un rôle clé dans la promotion de la culture et des arts à Montréal.</p>
+            </div>
+        </div>
+        
+        <div class="section mb-8 flex items-center">
+            <img src="2023-10-24.jpg" alt="Basilique Notre-Dame de Montréal" class="image-small mr-4">
+            <div>
+                <h2 class="text-xl font-semibold text-gray-800 mb-4">L'église</h2>
+                <p class="text-gray-700 mb-2">1. La basilique Notre-Dame de Montréal est une église célèbre de la ville.</p>
+                <p class="text-gray-700 mb-2">2. Elle est connue pour son architecture néo-gothique impressionnante.</p>
+                <p class="text-gray-700">3. De nombreux visiteurs viennent pour admirer ses magnifiques vitraux et son intérieur richement décoré.</p>
+            </div>
+        </div>
+        
+        <div class="section mb-8 flex items-center">
+            <img src="20240331_163504.jpg" class="image-small mr-4">
+            <div>
+                <h2 class="text-xl font-semibold text-gray-800 mb-4">La vieille ville</h2>
+                <p class="text-gray-700 mb-2">1. Le Vieux-Montréal est le quartier historique de la ville.</p>
+                <p class="text-gray-700 mb-2">2. Il est rempli de rues pavées et de bâtiments datant du XVIIe siècle.</p>
+                <p class="text-gray-700">3. C'est un endroit populaire pour les touristes qui veulent découvrir l'histoire et le charme de Montréal.</p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
